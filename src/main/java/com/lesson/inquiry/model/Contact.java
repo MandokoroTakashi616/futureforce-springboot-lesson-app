@@ -1,4 +1,4 @@
-package com.lesson.memo.model;
+package com.lesson.inquiry.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,11 +9,8 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Memo {
+public class Contact {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    // フィールドを追加してください
-
 }
