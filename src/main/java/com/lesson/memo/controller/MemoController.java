@@ -50,5 +50,6 @@ public class MemoController {
 		// 【/memo/new】にリダイレクトする記述
 		return "redirect:/memo/new";
 	}
+	
 
 }
